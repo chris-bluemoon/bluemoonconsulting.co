@@ -1,0 +1,107 @@
+
+body {
+    padding-top: 0rem;
+    position: relative;
+}
+
+.navbar .navbar-expand-md .navbar-dark .bg-dark .fixed-top {
+    border: 12px solid #B22222;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/* Navbar */
+
+.bg-dark {
+   background-color: #5e717f!important;
+/*   border-bottom: solid white thin;*/
+ }
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: white!important;
+    border-bottom: 2px solid white;
+}
+
+/* Ready */
+
+.ready {
+    background: #5e717f;
+    position: relative;
+    top: 100px;
+    left: 40%;
+    color: #fff;
+    height: 41px;
+    border-top: solid thin;
+    border-bottom: solid thin;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/* Ready Button */
+
+.ready-button {
+    background: #5e717f;
+    position:relative;
+    top: 20px;
+    left: 75px;
+    color: #fff;
+    text-align: center;
+    width:86px;
+}
+
+/* What we do */
+
+.what-we-do {
+    color: #5e717f;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+/* Contact */
+
+.contact {
+    background: #5e717f;
+    padding: 20px 10px;
+}
+
+.contact h2 {
+    color: #fff;
+}
+
+.contact-button {
+    background: #5e717f;
+    color: #fff;
+    z-index: 9999;
+    text-align: center;
+    width:100px;
+}
+
+/* ---- particles.js container ---- */
+
+#particles-js{
+      width: 100%;
+      height: 400px;
+      background-color: #5e717f;
+      background-image: url('');
+      background-size: cover;
+      background-position: 50% 50%;
+      background-repeat: no-repeat;
+      border-top: solid white thin;
+      border-bottom: solid white thin;
+}
+
+/*
+.particles-js-canvas-el {
+    height: 200px;
+}*/
