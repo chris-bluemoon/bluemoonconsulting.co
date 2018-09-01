@@ -33,11 +33,11 @@ body {
 
 /* Ready */
 
-.ready {
+#ready {
     background: #5e717f;
     position: relative;
     top: 100px;
-    left: 40%;
+/*    left: 40%;*/
     color: #fff;
     height: 41px;
     border-top: solid thin;
